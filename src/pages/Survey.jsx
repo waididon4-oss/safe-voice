@@ -270,7 +270,7 @@ export default function Survey({ navigate }) {
               <>
                 <div className="border border-line rounded-xl px-4 py-3.5 bg-panel text-xs text-neutral-600 leading-relaxed">
                   These fields are optional. Naming someone turns this response into an
-                  identifiable allegation rather than anonymous data — only fill this in if
+                  identifiable allegation rather than anonymous data only fill this in if
                   you're certain and comfortable doing so.
                 </div>
                 <Field label="Lecturer's full name">

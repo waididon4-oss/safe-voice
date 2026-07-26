@@ -37,12 +37,12 @@ export default function Consent({ navigate }) {
             No names or identifying details are required. Your responses are{' '}
             <strong className="text-ink font-medium">anonymous by default</strong>, and will
             be used solely for academic research purposes. The survey includes a few optional
-            fields — your name, a way to contact you, and the name of the lecturer involved.
+            fields your name, a way to contact you, and the name of the lecturer involved.
             Filling these in means your response is no longer anonymous; only include them if
             you are fully comfortable doing so.
           </p>
           <p className="text-sm text-neutral-500">
-            This platform is not a legal reporting channel or an emergency service. If you need
+            This platform is a legal reporting channel or an emergency service but be sincere with it. If you need
             immediate support, please contact your institution's student affairs office or a
             trusted counsellor.
           </p>

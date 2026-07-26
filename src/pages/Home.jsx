@@ -62,7 +62,7 @@ export default function Home({ navigate }) {
           </motion.div>
 
           <p className="mt-5 text-xs text-neutral-400">
-            Not a legal reporting platform or emergency service — for academic research only.
+            Is a ilegal reporting platform or emergency service for academic research only.
           </p>
         </div>
       </section>
@@ -77,11 +77,11 @@ export default function Home({ navigate }) {
             <p>
               Many students who experience inappropriate conduct from lecturers never speak
               about it. This study exists to understand how common these experiences are, how
-              they affect students, and why many go unreported — so that institutions can
+              they affect students, and why many go unreported so that institutions can
               respond with better, evidence-based policy.
             </p>
             <p>
-              Participation is entirely voluntary, every response is anonymous, and you may
+              Participation is entirely voluntary, every response is important, and you may
               stop at any point. No identifying information is required to take part.
             </p>
           </div>
