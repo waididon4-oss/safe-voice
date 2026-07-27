@@ -23,8 +23,8 @@ export default function Footer({ navigate }) {
         <div className="col-span-2">
           <p className="font-display text-base font-medium mb-2">SafeVoice</p>
           <p className="text-sm text-neutral-600 leading-relaxed max-w-xs">
-            An independent academic research study. This platform is not a legal reporting
-            channel or an emergency service.
+            An independent academic research study. This platform is a legal reporting
+            channel or an emergency service especially for female.
           </p>
         </div>
 
