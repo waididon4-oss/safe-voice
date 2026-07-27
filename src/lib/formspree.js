@@ -1,4 +1,4 @@
-export const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xpqvoyol'
+export const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xykrlnpd'
 
 /**
  * Submits a JSON payload directly to Formspree. No backend involved.
