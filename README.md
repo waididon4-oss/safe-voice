@@ -4,7 +4,7 @@ A frontend-only academic research platform where female students can voluntarily
 confidentially share experiences of inappropriate behaviour, abuse of authority, or harassment
 involving lecturers.
 
-This is a prototype for **academic research purposes only** — it is not a legal reporting
+This is a prototype for **academic research purposes only** it is not a legal reporting
 platform or emergency service, and it has no backend, database, or authentication.
 
 ## Tech stack

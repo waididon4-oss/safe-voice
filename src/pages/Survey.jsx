@@ -10,7 +10,7 @@ import Modal from '../components/Modal.jsx'
 import Spinner from '../components/Spinner.jsx'
 import { submitToFormspree } from '../lib/formspree.js'
 
-const LEVELS = ['100', '200', '300', '400', '500', '600 & above']
+const LEVELS = ['100', '200', '300', '400', '500',]
 const AGE_RANGES = ['Under 18', '18–20', '21–23', '24–26', '27 and above']
 const GENDERS = ['Female', 'Male', 'Non-binary', 'Prefer not to say']
 const YES_NO_PREFER = ['Yes', 'No', 'Prefer not to say']
@@ -31,7 +31,6 @@ const schema = z.object({
   level: z.string().min(1, 'Please select your level'),
   ageRange: z.string().min(1, 'Please select your age range'),
   gender: z.string().min(1, 'Please select your gender'),
-  anonymous: z.boolean().optional(),
   fullName: z.string().optional(),
   matricNumber: z.string().optional(),
   lecturerName: z.string().optional(),
@@ -45,7 +44,6 @@ const schema = z.object({
   reasonNotReported: z.string().optional(),
   effects: z.string().optional(),
   recommendations: z.string().optional(),
-  additionalComments: z.string().optional(),
   contactName: z.string().optional(),
   contactEmail: z
     .string()
@@ -163,7 +161,7 @@ export default function Survey({ navigate }) {
 
   return (
     <div className="max-w-2xl mx-auto px-5 sm:px-8 py-16 sm:py-20">
-      <p className="text-xs uppercase tracking-wide text-neutral-400 mb-3">Research survey</p>
+      <p className="text-xs uppercase tracking-wide text-neutral-400 mb-3">Report</p>
       <h1 className="font-display text-3xl font-medium tracking-tight mb-1">
         {STEP_TITLES[step - 1]}
       </h1>
@@ -240,7 +238,7 @@ export default function Survey({ navigate }) {
                     className="mt-0.5 w-4 h-4 rounded text-accent focus:ring-accent"
                   />
                   <span className="text-sm">
-                    I prefer this submission to remain anonymous.
+                    I prefer not to report it anymore.
                     <span className="block text-xs text-neutral-500 mt-0.5">
                       This clears and disables the name/matric fields below.
                     </span>
@@ -269,8 +267,8 @@ export default function Survey({ navigate }) {
             {step === 3 && (
               <>
                 <div className="border border-line rounded-xl px-4 py-3.5 bg-panel text-xs text-neutral-600 leading-relaxed">
-                  These fields are optional. Naming someone turns this response into an
-                  identifiable allegation rather than anonymous data only fill this in if
+                  These fields are optional. Naming someone make this response into an
+                  identifiable allegation rather than to be quite about it you can only fill this in if
                   you're certain and comfortable doing so.
                 </div>
                 <Field label="Lecturer's full name">
@@ -422,7 +420,7 @@ export default function Survey({ navigate }) {
             {step === 6 && (
               <>
                 <p className="text-sm text-neutral-600 leading-relaxed border border-line rounded-xl px-4 py-4 bg-panel">
-                  If you're willing to take part in any follow-up academic research, you may
+                  If you're willing to take part in any follow-up Student safety, you may
                   provide your contact information below. All fields are optional.
                 </p>
                 <Field label="Name">

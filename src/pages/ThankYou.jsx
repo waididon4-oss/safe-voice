@@ -30,8 +30,8 @@ export default function ThankYou({ navigate }) {
         className="mt-4 text-neutral-600 leading-relaxed"
       >
         Your response has been recorded and will contribute to a better
-        understanding of student experiences on campus. This research would not be possible
-        without participants like you.
+        understanding of student experiences on campus. This issue would not be possible
+        without you.
       </motion.p>
 
       <motion.div

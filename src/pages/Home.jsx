@@ -43,7 +43,7 @@ export default function Home({ navigate }) {
             className="mt-5 text-neutral-600 text-base leading-relaxed max-w-xl"
           >
             A confidential academic research initiative designed to understand and improve the
-            experiences of female students in higher institutions.
+            experiences of both gender male and female students in higher institutions.
           </motion.p>
 
           <motion.div
@@ -81,7 +81,7 @@ export default function Home({ navigate }) {
               respond with better, evidence-based policy.
             </p>
             <p>
-              Participation is entirely voluntary, every response is important, and you may
+              Participation is entirely your wish, every response is important, and you may
               stop at any point. No identifying information is required to take part.
             </p>
           </div>

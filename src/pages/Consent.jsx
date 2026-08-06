@@ -24,21 +24,21 @@ export default function Consent({ navigate }) {
 
         <div className="border border-line rounded-2xl p-7 bg-panel shadow-soft space-y-4 text-[15px] text-neutral-700 leading-relaxed">
           <p>
-            You are being invited to take part in the SafeVoice study, an
-            academic research project examining inappropriate behaviour, abuse of authority, and
-            harassment by lecturers toward female students in higher institutions.
+            You are being invited to take part in the SafeVoice site, an
+            academic group research to examining inappropriate behaviour, abuse of authority, and
+            harassment by lecturers toward both gender male and female to students in higher institutions.
           </p>
           <p>
-            Your participation is entirely <strong className="text-ink font-medium">voluntary</strong>.
+            Your participation is your <strong className="text-ink font-medium">wish</strong>.
             You do not have to answer any question you are not comfortable with, and you may
             stop at any time without consequence.
           </p>
           <p>
             No names or identifying details are required. Your responses are{' '}
-            <strong className="text-ink font-medium">anonymous by default</strong>, and will
-            be used solely for academic research purposes. The survey includes a few optional
+            <strong className="text-ink font-medium">safe by the group</strong>, and will
+            be used solely for academic secure purposes. The report includes a few optional
             fields your name, a way to contact you, and the name of the lecturer involved.
-            Filling these in means your response is no longer anonymous; only include them if
+            Filling these in means your response is recorded; and you can only include them if
             you are fully comfortable doing so.
           </p>
           <p className="text-sm text-neutral-500">
@@ -56,8 +56,7 @@ export default function Consent({ navigate }) {
             className="mt-0.5 w-4 h-4 rounded border-neutral-300 text-accent focus:ring-accent"
           />
           <span className="text-sm text-neutral-700">
-            I have read the information above and I voluntarily agree to participate in this
-            research.
+            I have read the information above and I agreed to do so.
           </span>
         </label>
 

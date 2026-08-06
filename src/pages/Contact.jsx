@@ -48,7 +48,7 @@ export default function Contact() {
         <p className="text-xs uppercase tracking-wide text-neutral-400 mb-3">Contact</p>
         <h1 className="font-display text-3xl font-medium tracking-tight mb-4">Get in touch</h1>
         <p className="text-neutral-600 leading-relaxed mb-10">
-          Questions about the research, the platform, or how your data is used? Send a message
+          Questions about SafeVoice, the platform, or how your data is used? Send a message
           and the research team will get back to you.
         </p>
 
